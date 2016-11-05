@@ -13,6 +13,7 @@
 		4F2824BC1DCE24DC00143BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2824BA1DCE24DC00143BE2 /* Main.storyboard */; };
 		4F2824BE1DCE24DC00143BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2824BD1DCE24DC00143BE2 /* Assets.xcassets */; };
 		4F2824C11DCE24DC00143BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2824BF1DCE24DC00143BE2 /* LaunchScreen.storyboard */; };
+		4FDACCD41DCE29F500A70E06 /* TICKCircleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDACCD31DCE29F500A70E06 /* TICKCircleSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4F2824BD1DCE24DC00143BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F2824C01DCE24DC00143BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F2824C21DCE24DC00143BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDACCD21DCE29F500A70E06 /* TICKCircleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TICKCircleSlider.h; sourceTree = "<group>"; };
+		4FDACCD31DCE29F500A70E06 /* TICKCircleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TICKCircleSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4F2824B01DCE24DC00143BE2 /* TICKCircleSlider */ = {
 			isa = PBXGroup;
 			children = (
+				4FDACCD11DCE29E200A70E06 /* TICKCircleSlider */,
 				4F2824B41DCE24DC00143BE2 /* AppDelegate.h */,
 				4F2824B51DCE24DC00143BE2 /* AppDelegate.m */,
 				4F2824B71DCE24DC00143BE2 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				4F2824B21DCE24DC00143BE2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FDACCD11DCE29E200A70E06 /* TICKCircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				4FDACCD21DCE29F500A70E06 /* TICKCircleSlider.h */,
+				4FDACCD31DCE29F500A70E06 /* TICKCircleSlider.m */,
+			);
+			path = TICKCircleSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2824B91DCE24DC00143BE2 /* ViewController.m in Sources */,
+				4FDACCD41DCE29F500A70E06 /* TICKCircleSlider.m in Sources */,
 				4F2824B61DCE24DC00143BE2 /* AppDelegate.m in Sources */,
 				4F2824B31DCE24DC00143BE2 /* main.m in Sources */,
 			);
